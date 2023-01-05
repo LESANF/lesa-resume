@@ -17,6 +17,11 @@
                 "name": "instagram",
                 "url": "https://www.instagram.com/lesawfe",
                 "class": "fab fa-instagram"
+            },
+            {
+                "name": "blog",
+                "url": "https://velog.io/@lesacat94",
+                "class": "fab fa-blogger"
             }
         ],
         "image": "myProfile.jpg"

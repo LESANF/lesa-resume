@@ -33,13 +33,14 @@ class App extends Component {
             oppositeLangIconId === window.$primaryLanguageIconId
                 ? window.$secondaryLanguageIconId
                 : window.$primaryLanguageIconId;
+
         document.getElementById(oppositeLangIconId).removeAttribute('filter', 'brightness(40%)');
         document.getElementById(pickedLangIconId).setAttribute('filter', 'brightness(40%)');
     }
 
     componentDidMount() {
         this.loadSharedData();
-        this.applyPickedLanguage(window.$primaryLanguage, window.$secondaryLanguageIconId);
+        this.applyPickedLanguage(window.$primaryLanguage, window.$primaryLanguageIconId);
     }
 
     loadResumeFromPath(path) {

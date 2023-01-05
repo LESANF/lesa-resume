@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
-import angularIcon from '@iconify/icons-logos/angular-icon';
 import reactIcon from '@iconify/icons-logos/react';
-import vueIcon from '@iconify/icons-logos/vue';
 
 class About extends Component {
     render() {
@@ -10,7 +8,7 @@ class About extends Component {
             //var profilepic = 'images/' + this.props.sharedBasicInfo.image;
             //var profilepic = 'https://via.placeholder.com/150.jpg';
             var profilepic =
-                'https://user-images.githubusercontent.com/54767632/180994236-4cc98f7c-8261-4931-a4f1-1e39031bd7b9.png';
+                'https://user-images.githubusercontent.com/54767632/210860114-57c84e0d-fc40-46e1-acf8-ddcdf0177283.jpeg';
         }
         if (this.props.resumeBasicInfo) {
             var sectionName = this.props.resumeBasicInfo.section_name.about;
