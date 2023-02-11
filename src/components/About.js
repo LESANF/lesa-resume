@@ -16,8 +16,6 @@ class About extends Component {
             var about = this.props.resumeBasicInfo.description;
         }
 
-        document.querySelector('#my-description').innerHTML = 'a\nb\nc\n';
-
         // var des = `{
         //     "name": "kim, dong han",
         //     "position": "frontend developer",
