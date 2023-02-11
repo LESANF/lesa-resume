@@ -16,26 +16,6 @@ class About extends Component {
             var about = this.props.resumeBasicInfo.description;
         }
 
-        // var des = `{
-        //     "name": "kim, dong han",
-        //     "position": "frontend developer",
-        //     "tech-stack": {
-        //       "frontend": [
-        //         "typescript",
-        //         "javascript",
-        //         "react",
-        //         "react-query",
-        //         "framer-motion",
-        //         "recoil",
-        //       ],
-        //       "backend": ["nodejs", "express"],
-        //       "database": ["mongo", "mysql", "oracle"]
-        //     },
-        //     "motto": "no pain, no gain",
-        //     "love": ["incrementally", "share with others"],
-        //     "hobby": ["toy-project", "algorithm", "fishing", "workout"]
-        //   }`;
-
         return (
             <section id="about">
                 <div className="col-md-12">
@@ -97,7 +77,7 @@ class About extends Component {
                                         <span className="wave">{hello} :) </span>
                                         <br />
                                         <br />
-                                        <span id="my-description"></span>
+                                        <span id="my-description">준비중 !</span>
                                     </div>
                                 </div>
                             </div>
