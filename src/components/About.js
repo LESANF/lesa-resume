@@ -77,7 +77,7 @@ class About extends Component {
                                         <span className="wave">{hello} :) </span>
                                         <br />
                                         <br />
-                                        <span id="my-description">준비중 !</span>
+                                        <span id="my-description">준비중 !!</span>
                                     </div>
                                 </div>
                             </div>
