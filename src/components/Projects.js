@@ -19,7 +19,6 @@ class Projects extends Component {
         if (this.props.resumeProjects && this.props.resumeBasicInfo) {
             var sectionName = this.props.resumeBasicInfo.section_name.projects;
             var projects = this.props.resumeProjects.map(function (projects) {
-                // console.log(projects);
                 return (
                     <div
                         className="col-sm-12 col-md-6 col-lg-4"
