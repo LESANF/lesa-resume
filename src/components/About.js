@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
 import reactIcon from '@iconify/icons-logos/react';
-import hljs from 'highlight.js';
-import 'highlight.js/styles/vs2015.css';
 
 class About extends Component {
     render() {
-        hljs.highlightAll();
-
         if (this.props.sharedBasicInfo) {
             //var profilepic = 'images/' + this.props.sharedBasicInfo.image;
             //var profilepic = 'https://via.placeholder.com/150.jpg';
@@ -19,21 +15,6 @@ class About extends Component {
             var hello = this.props.resumeBasicInfo.description_header;
             // var about = this.props.resumeBasicInfo.description;
         }
-
-        var desjson = {
-            name: 'kim, dong han',
-            position: 'frontend developer',
-            'tech-stack': {
-                frontend: ['typescript', 'javascript', 'react', 'react-query', 'framer-motion', 'recoil'],
-                backend: ['nodejs', 'express'],
-                database: ['mongo', 'mysql', 'oracle'],
-            },
-            motto: 'no pain, no gain',
-            love: ['incrementally', 'share with others'],
-            hobby: ['toy-project', 'algorithm', 'fishing', 'workout'],
-        };
-
-        var atest = `const a = 1;\nconst b = 2;`;
 
         return (
             <section id="about">
@@ -96,7 +77,7 @@ class About extends Component {
                                         <span className="wave">{hello} :ddd) </span>
                                         <br />
                                         <br />
-                                        {/* <div>{'{'}</div>
+                                        <div>{'{'}</div>
                                         <div>{`\u00a0\u00a0"name": "kim, dong han",`}</div>
                                         <div>{`\u00a0\u00a0"position": "frontend developer",`}</div>
                                         <div>{`\u00a0\u00a0"tech-stack": {`}</div>
@@ -114,10 +95,7 @@ class About extends Component {
                                         <div>{`\u00a0\u00a0"motto": "no pain, no gain",`}</div>
                                         <div>{`\u00a0\u00a0"love": ["incrementally", "share with others"],`}</div>
                                         <div>{`\u00a0\u00a0"hobby": ["toy-project", "algorithm", "fishing", "workout"]`}</div>
-                                        <div>{'}'}</div> */}
-                                        <pre>
-                                            <code>{atest}</code>
-                                        </pre>
+                                        <div>{'}'}</div>
                                     </div>
                                 </div>
                             </div>
