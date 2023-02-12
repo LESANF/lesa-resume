@@ -19,7 +19,7 @@ class App extends Component {
     }
 
     applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-        this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+        // this.swapCurrentlyActiveLanguage(oppositeLangIconId);
         document.documentElement.lang = pickedLanguage;
         var resumePath =
             document.documentElement.lang === window.$primaryLanguage
@@ -28,15 +28,15 @@ class App extends Component {
         this.loadResumeFromPath(resumePath);
     }
 
-    swapCurrentlyActiveLanguage(oppositeLangIconId) {
-        var pickedLangIconId =
-            oppositeLangIconId === window.$primaryLanguageIconId
-                ? window.$secondaryLanguageIconId
-                : window.$primaryLanguageIconId;
+    // swapCurrentlyActiveLanguage(oppositeLangIconId) {
+    //     var pickedLangIconId =
+    //         oppositeLangIconId === window.$primaryLanguageIconId
+    //             ? window.$secondaryLanguageIconId
+    //             : window.$primaryLanguageIconId;
 
-        document.getElementById(oppositeLangIconId).removeAttribute('filter', 'brightness(40%)');
-        document.getElementById(pickedLangIconId).setAttribute('filter', 'brightness(40%)');
-    }
+    //     document.getElementById(oppositeLangIconId).removeAttribute('filter', 'brightness(40%)');
+    //     document.getElementById(pickedLangIconId).setAttribute('filter', 'brightness(40%)');
+    // }
 
     componentDidMount() {
         this.loadSharedData();
@@ -90,10 +90,8 @@ class App extends Component {
                             id={window.$primaryLanguageIconId}
                         ></span>
                     </div>
-                    <div
-                        onClick={() =>
-                            this.applyPickedLanguage(window.$secondaryLanguage, window.$primaryLanguageIconId)
-                        }
+                    {/* <div
+                        onClick={() => this.applyPickedLanguage(window.$secondaryLanguage)}
                         style={{ display: 'inline' }}
                     >
                         <span
@@ -102,7 +100,7 @@ class App extends Component {
                             data-inline="false"
                             id={window.$secondaryLanguageIconId}
                         ></span>
-                    </div>
+                    </div> */}
                 </div>
                 <About
                     resumeBasicInfo={this.state.resumeData.basic_info}
