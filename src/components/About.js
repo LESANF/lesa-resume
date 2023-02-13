@@ -14,7 +14,7 @@ class About extends Component {
             //var profilepic = 'images/' + this.props.sharedBasicInfo.image;
             //var profilepic = 'https://via.placeholder.com/150.jpg';
             var profilepic =
-                'https://user-images.githubusercontent.com/54767632/210860114-57c84e0d-fc40-46e1-acf8-ddcdf0177283.jpeg';
+                'https://velog.velcdn.com/images/lesacat94/post/fb3fbc39-ed5f-41e1-ad0b-abb604bf9603/image.10';
         }
         if (this.props.resumeBasicInfo) {
             var sectionName = this.props.resumeBasicInfo.section_name.about;

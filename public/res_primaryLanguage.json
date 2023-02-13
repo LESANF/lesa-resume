@@ -13,8 +13,13 @@
         {
             "title": "Photolog",
             "startDate": "2022",
-            "description": "포토로그",
-            "images": ["images/portfolio/animal-shelter/p1.jpg", "images/portfolio/animal-shelter/p2.jpg"],
+            "description": "포토로그\n하이\n디스크립션",
+            "images": [
+                "https://velog.velcdn.com/images/lesacat94/post/8b030435-f709-47a0-918b-e258224a62dc/image.%25E1%2584%2591%25E1%2585%25A9%25E1%2584%2590%25E1%2585%25A9%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2580%25E1%2585%25B3%25E1%2584%2586%25E1%2585%25A6%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AB",
+                "https://user-images.githubusercontent.com/59651691/210131630-6d50021e-764d-46eb-b3ee-6bab952307fc.gif",
+                "https://user-images.githubusercontent.com/59651691/210131218-c90c1f98-310e-4da8-add9-024f9e7d2b21.gif",
+                "https://user-images.githubusercontent.com/59651691/210131167-11ab68c7-4157-453b-97db-793ff5938421.gif"
+            ],
             "url": "http://ec2-54-180-51-116.ap-northeast-2.compute.amazonaws.com/",
             "technologies": [
                 {
