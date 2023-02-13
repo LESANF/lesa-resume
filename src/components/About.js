@@ -18,37 +18,8 @@ class About extends Component {
         }
         if (this.props.resumeBasicInfo) {
             var sectionName = this.props.resumeBasicInfo.section_name.about;
-            var hello = this.props.resumeBasicInfo.description_header;
             // var about = this.props.resumeBasicInfo.description;
         }
-
-        var destext = {
-            name: 'kim, dong han',
-            position: 'frontend developer',
-            'tech-stack': {
-                frontend: ['typescript', 'javascript', 'react', 'react-query', 'framer-motion', 'recoil'],
-                backend: ['nodejs', 'express'],
-                database: ['mongo', 'mysql', 'oracle'],
-            },
-            motto: 'no pain, no gain',
-            love: ['incrementally', 'share with others'],
-            hobby: ['toy-project', 'algorithm', 'fishing', 'workout'],
-        };
-
-        var ttt = [
-            {
-                name: 'kim, dong han',
-                position: 'frontend developer',
-                'tech-stack': {
-                    frontend: ['typescript', 'javascript', 'react', 'react-query', 'framer-motion', 'recoil'],
-                    backend: ['nodejs', 'express'],
-                    database: ['mongo', 'mysql', 'oracle'],
-                },
-                motto: 'no pain, no gain',
-                love: ['incrementally', 'share with others'],
-                hobby: ['toy-project', 'algorithm', 'fishing', 'workout'],
-            },
-        ];
 
         return (
             <section id="about">
