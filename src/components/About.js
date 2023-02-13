@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
 import reactIcon from '@iconify/icons-logos/react';
+import hljs from 'highlight.js';
+//import 'highlight.js/styles/vs2015.css';
+import 'highlight.js/styles/base16/classic-light.css';
+import Highlight from 'react-highlight';
 
 class About extends Component {
     render() {
+        hljs.highlightAll();
+
         if (this.props.sharedBasicInfo) {
             //var profilepic = 'images/' + this.props.sharedBasicInfo.image;
             //var profilepic = 'https://via.placeholder.com/150.jpg';
@@ -16,12 +22,41 @@ class About extends Component {
             // var about = this.props.resumeBasicInfo.description;
         }
 
+        var destext = {
+            name: 'kim, dong han',
+            position: 'frontend developer',
+            'tech-stack': {
+                frontend: ['typescript', 'javascript', 'react', 'react-query', 'framer-motion', 'recoil'],
+                backend: ['nodejs', 'express'],
+                database: ['mongo', 'mysql', 'oracle'],
+            },
+            motto: 'no pain, no gain',
+            love: ['incrementally', 'share with others'],
+            hobby: ['toy-project', 'algorithm', 'fishing', 'workout'],
+        };
+
+        var ttt = [
+            {
+                name: 'kim, dong han',
+                position: 'frontend developer',
+                'tech-stack': {
+                    frontend: ['typescript', 'javascript', 'react', 'react-query', 'framer-motion', 'recoil'],
+                    backend: ['nodejs', 'express'],
+                    database: ['mongo', 'mysql', 'oracle'],
+                },
+                motto: 'no pain, no gain',
+                love: ['incrementally', 'share with others'],
+                hobby: ['toy-project', 'algorithm', 'fishing', 'workout'],
+            },
+        ];
+
         return (
             <section id="about">
                 <div className="col-md-12">
                     <h1 style={{ color: 'black' }}>
                         <span>{sectionName}</span>
                     </h1>
+                    <br />
                     <div className="row center mx-auto mb-5">
                         <div className="col-md-4 mb-5 center">
                             <div className="polaroid">
@@ -73,29 +108,30 @@ class About extends Component {
                                             lineHeight: '200%',
                                         }}
                                     >
-                                        <br />
-                                        <span className="wave">{hello} :ddd) </span>
-                                        <br />
-                                        <br />
-                                        <div>{'{'}</div>
-                                        <div>{`\u00a0\u00a0"name": "kim, dong han",`}</div>
-                                        <div>{`\u00a0\u00a0"position": "frontend developer",`}</div>
-                                        <div>{`\u00a0\u00a0"tech-stack": {`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0"frontend": [`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"typescript",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"javascript",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"react",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"react-query",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"framer-motion",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"recoil",`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0],`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0"backend": ["nodejs", "express"],`}</div>
-                                        <div>{`\u00a0\u00a0\u00a0\u00a0"database": ["mongo", "mysql", "oracle"]`}</div>
-                                        <div>{`\u00a0\u00a0},`}</div>
-                                        <div>{`\u00a0\u00a0"motto": "no pain, no gain",`}</div>
-                                        <div>{`\u00a0\u00a0"love": ["incrementally", "share with others"],`}</div>
-                                        <div>{`\u00a0\u00a0"hobby": ["toy-project", "algorithm", "fishing", "workout"]`}</div>
-                                        <div>{'}'}</div>
+                                        <Highlight language="json">
+                                            {`
+{
+    "resume":[
+       {
+          "name": "kim, dong han",
+          "position": "frontend developer", 
+          "phone numver": "010-3184-4567", 
+          "email": "lesacat94@gmail.com", 
+          "tech-stack":[
+             {
+                "frontend": ["typescript", "javascript", "react", "react-query", "framer-motion", "recoil", "styled-components"],
+                "backend": ["nodejs", "express"],
+                "database": ["mongo", "mysql", "oracle"],
+             },
+          ],
+          "motto": "no pain, no gain",
+          "love": ["incrementally", "share with others"],
+          "hobby": ["toy-project", "algorithm", "fishing", "workout"],
+       },
+    ]
+}
+`}
+                                        </Highlight>
                                     </div>
                                 </div>
                             </div>
