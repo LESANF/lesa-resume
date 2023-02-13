@@ -11,7 +11,7 @@ class ProjectDetailsModal extends Component {
             const technologies = this.props.data.technologies;
             const images = this.props.data.images;
             var title = this.props.data.title;
-            var description = this.props.data.description;
+            //var description = this.props.data.description;
             var url = this.props.data.url;
             if (this.props.data.technologies) {
                 var tech = technologies.map((icons, i) => {
