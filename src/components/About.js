@@ -86,7 +86,7 @@ class About extends Component {
        {
           "name": "kim, dong han",
           "position": "frontend developer", 
-          "phone numver": "010-3184-4567", 
+          "phone number": "010-3184-4567", 
           "email": "lesacat94@gmail.com", 
           "tech-stack":[
              {
