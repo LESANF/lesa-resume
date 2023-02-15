@@ -100,7 +100,7 @@
             "company": "울산광역시 상수도사업본부",
             "title": "상하수도요금관리프로그램 재개발 산업",
             "years": "2020.06 - 2020.01",
-            "summary": "- 전체 서비스 마이그레이션 담당(풀스택)",
+            "summary": "- 전체 서비스 마이그레이션 담당",
             "mainTech": ["2020.06 ~ 2020.01"],
             "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "Oracle"]
         },
@@ -116,7 +116,7 @@
             "company": "해양수산인재개발원",
             "title": "2021 학사운영정보시스템 개선",
             "years": "2021.03 - 2021.10",
-            "summary": "- 어업인 대상 LMS 서비스 개발(풀스택)",
+            "summary": "- 어업인 대상 LMS 서비스 개발",
             "mainTech": ["2021.03 ~ 2021.10"],
             "technologies": ["Java", "Spring", "JSP", "jQuery", "Oracle"]
         },
