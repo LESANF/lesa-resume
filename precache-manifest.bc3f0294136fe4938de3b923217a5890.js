@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "075cf7419b9f1cca3598e19c17715d3f",
+    "revision": "c55810fd43ebd734bf338d859c5f0611",
     "url": "/lesa-resume/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lesa-resume/static/css/2.93adce47.chunk.css"
   },
   {
-    "revision": "a1b7877b667adb73417d",
+    "revision": "e1b190a1482a4c3d8541",
     "url": "/lesa-resume/static/css/main.2e753cb0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lesa-resume/static/js/2.e4c43692.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1b7877b667adb73417d",
-    "url": "/lesa-resume/static/js/main.f7707605.chunk.js"
+    "revision": "e1b190a1482a4c3d8541",
+    "url": "/lesa-resume/static/js/main.2596dbb6.chunk.js"
   },
   {
     "revision": "1b1a2dfd10d96e734bd0",
