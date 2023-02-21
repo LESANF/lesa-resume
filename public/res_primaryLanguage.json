@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "안녕하세요",
-        "description": "👋 프론트엔드 개발자를 지망하고 있는 김동한입니다. 저는 부산에서 LMS를 주로 판매하고 있는 JSP 기반 SI 업체에서 2년 가까이 개발자로 일한 경험이 있습니다. 지금은 React 기반 프론트엔드 개발자가 되기 위해 공부하고 있으며 서울로 가기 위해 노력하고 있습니다. 아래의 저의 포트폴리오와 경력을 봐주시면 감사하겠습니다. 🔥",
+        "description": "",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -10,6 +10,29 @@
         }
     },
     "projects": [
+        {
+            "title": "Pet-shop",
+            "startDate": "2022",
+            "description": "포토로그\n하이\n디스크립션",
+            "images": [
+                "https://user-images.githubusercontent.com/54767632/220227767-93646f61-ae2c-4f1d-94de-c30f6490554f.png"
+            ],
+            "url": "https://pets-shops-lesa.fly.dev/",
+            "technologies": [
+                {
+                    "class": "devicon-javascript-plain colored",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-nodejs-plain colored",
+                    "name": "nodejs"
+                },
+                {
+                    "class": "devicon-mongodb-plain colored",
+                    "name": "mongodb"
+                }
+            ]
+        },
         {
             "title": "Photolog",
             "startDate": "2022",
@@ -51,6 +74,73 @@
     ],
     "experience": [
         {
+            "company": "(주)엘리스",
+            "title": "엘리스 SW 엔지니어 트랙 3기",
+            "years": "2022.09 - 2022.12",
+            "mainTech": ["2022.09 ~ 2022.12"],
+            "technologies": ["BootCamp"]
+        },
+        {
+            "company": "(주)맵스코",
+            "title": "JAVA, JSP 기반 SI 업체 퇴사",
+            "years": " - 2021.11",
+            "mainTech": [" ~ 2021.11"],
+            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
+        },
+        {
+            "company": "해양수산인재개발원",
+            "title": "2021 학사운영정보시스템 개선",
+            "years": "2021.03 - 2021.10",
+            "summary": "- 어업인 대상 LMS 서비스 개발",
+            "mainTech": ["2021.03 ~ 2021.10"],
+            "technologies": ["Java", "Spring", "JSP", "jQuery", "Oracle"]
+        },
+        {
+            "company": "신라대학교",
+            "title": "신라대학교 생활관 통합관리시스템 구축",
+            "years": "2021.01 - 2021.03",
+            "summary": "- 공지사항 문자 서비스, 기숙사 신청 관리 시스템, 관리자 로그인 문자 인증 서비스",
+            "mainTech": ["2021.01 ~ 2021.03"],
+            "technologies": ["Java", "Spring", "JSP", "jQuery", "Maria"]
+        },
+        {
+            "company": "울산광역시 상수도사업본부",
+            "title": "상하수도요금관리프로그램 재개발 산업",
+            "years": "2020.06 - 2020.01",
+            "summary": "- 전체 서비스 마이그레이션 담당",
+            "mainTech": ["2020.06 ~ 2020.01"],
+            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "Oracle"]
+        },
+        {
+            "company": "(주)맵스코",
+            "title": "JAVA, JSP 기반 SI 업체 입사",
+            "years": "2020.05 - ",
+            "mainTech": ["2020.05 ~ "],
+            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
+        },
+
+        {
+            "company": "동명대학교 산학협력단",
+            "title": "동명대학교 산학협력단(TLO) 교직원",
+            "years": "2019.07 - 2020.02",
+            "mainTech": ["2019.07 ~ 2020.02"],
+            "technologies": []
+        },
+        {
+            "company": "한국산업인력공단",
+            "title": "정보처리기사 취득",
+            "years": "2019.11",
+            "mainTech": ["2019.11"],
+            "technologies": ["국가공인자격증"]
+        },
+        {
+            "company": "부경대학교",
+            "title": "제8회 2018 ICT 융합기술:서비스 학술대회 참가",
+            "years": "2018.08 - 2018.08",
+            "mainTech": ["2018.08 ~ 2018.08"],
+            "technologies": ["Android Studio", "CloudRAIL"]
+        },
+        {
             "title": "동명대학교 컴퓨터공학과(4년제)",
             "years": "2013.03 - 2019.02",
             "mainTech": ["2013.03 ~ 2019.02"],
@@ -67,72 +157,6 @@
                 "MySQL",
                 "Android Studio"
             ]
-        },
-        {
-            "company": "부경대학교",
-            "title": "제8회 2018 ICT 융합기술:서비스 학술대회 참가",
-            "years": "2018.08 - 2018.08",
-            "mainTech": ["2018.08 ~ 2018.08"],
-            "technologies": ["Android Studio", "CloudRAIL"]
-        },
-        {
-            "company": "한국산업인력공단",
-            "title": "정보처리기사 취득",
-            "years": "2019.11",
-            "mainTech": ["2019.11"],
-            "technologies": ["국가공인자격증"]
-        },
-        {
-            "company": "동명대학교 산학협력단",
-            "title": "동명대학교 산학협력단(TLO) 교직원",
-            "years": "2019.07 - 2020.02",
-            "mainTech": ["2019.07 ~ 2020.02"],
-            "technologies": []
-        },
-        {
-            "company": "(주)맵스코",
-            "title": "JAVA, JSP 기반 SI 업체 입사",
-            "years": "2020.05 - ",
-            "mainTech": ["2020.05 ~ "],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
-        },
-        {
-            "company": "울산광역시 상수도사업본부",
-            "title": "상하수도요금관리프로그램 재개발 산업",
-            "years": "2020.06 - 2020.01",
-            "summary": "- 전체 서비스 마이그레이션 담당",
-            "mainTech": ["2020.06 ~ 2020.01"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "Oracle"]
-        },
-        {
-            "company": "신라대학교",
-            "title": "신라대학교 생활관 통합관리시스템 구축",
-            "years": "2021.01 - 2021.03",
-            "summary": "- 공지사항 문자 서비스, 기숙사 신청 관리 시스템, 관리자 로그인 문자 인증 서비스",
-            "mainTech": ["2021.01 ~ 2021.03"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Maria"]
-        },
-        {
-            "company": "해양수산인재개발원",
-            "title": "2021 학사운영정보시스템 개선",
-            "years": "2021.03 - 2021.10",
-            "summary": "- 어업인 대상 LMS 서비스 개발",
-            "mainTech": ["2021.03 ~ 2021.10"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Oracle"]
-        },
-        {
-            "company": "(주)맵스코",
-            "title": "JAVA, JSP 기반 SI 업체 퇴사",
-            "years": " - 2021.11",
-            "mainTech": [" ~ 2021.11"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
-        },
-        {
-            "company": "(주)엘리스",
-            "title": "엘리스 SW 엔지니어 트랙 3기",
-            "years": "2022.09 - 2022.12",
-            "mainTech": ["2022.09 ~ 2022.12"],
-            "technologies": ["BootCamp"]
         }
     ]
 }
