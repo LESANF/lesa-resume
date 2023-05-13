@@ -1,162 +1,182 @@
 {
-    "basic_info": {
-        "description_header": "안녕하세요",
-        "description": "",
-        "section_name": {
-            "about": "About me",
-            "projects": "Projects",
-            "skills": "Skills",
-            "experience": "Experience"
+  "basic_info": {
+    "description_header": "안녕하세요",
+    "description": "",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Pet-shop",
+      "startDate": "2022",
+      "description": "<hi>Hi</hi><br><h4>Hiiii</h4>",
+      "images": [
+        "https://user-images.githubusercontent.com/54767632/220227767-93646f61-ae2c-4f1d-94de-c30f6490554f.png",
+        "https://velog.velcdn.com/images/lesacat94/post/1a6f760b-7f5b-45c6-8e6b-23dc8f020cb5/image.png",
+        "https://velog.velcdn.com/images/lesacat94/post/57bc25a0-49b9-4fb0-8d04-739e2a3cc020/image.png",
+        "https://velog.velcdn.com/images/lesacat94/post/e25da27a-7cd4-457b-b7eb-8b4a586d2636/image.png"
+      ],
+      "url": "https://pets-shops-lesa.fly.dev/",
+      "githubUrl": "https://github.com/Elice-SW-Engineer-Project/pets-shop",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "nodejs"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "mongodb"
         }
+      ]
     },
-    "projects": [
+    {
+      "title": "Photolog",
+      "startDate": "2022",
+      "description": "포토로그\n하이\n디스크립션",
+      "images": [
+        "https://velog.velcdn.com/images/lesacat94/post/8b030435-f709-47a0-918b-e258224a62dc/image.%25E1%2584%2591%25E1%2585%25A9%25E1%2584%2590%25E1%2585%25A9%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2580%25E1%2585%25B3%25E1%2584%2586%25E1%2585%25A6%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AB",
+        "https://user-images.githubusercontent.com/59651691/210131630-6d50021e-764d-46eb-b3ee-6bab952307fc.gif",
+        "https://user-images.githubusercontent.com/59651691/210131218-c90c1f98-310e-4da8-add9-024f9e7d2b21.gif",
+        "https://user-images.githubusercontent.com/59651691/210131167-11ab68c7-4157-453b-97db-793ff5938421.gif"
+      ],
+      "url": "https://www.youtube.com/watch?v=wbJW3wDgFrY",
+      "githubUrl": "https://github.com/Elice-SW-Engineer-Project-2",
+      "technologies": [
         {
-            "title": "Pet-shop",
-            "startDate": "2022",
-            "description": "포토로그\n하이\n디스크립션",
-            "images": [
-                "https://user-images.githubusercontent.com/54767632/220227767-93646f61-ae2c-4f1d-94de-c30f6490554f.png"
-            ],
-            "url": "https://pets-shops-lesa.fly.dev/",
-            "technologies": [
-                {
-                    "class": "devicon-javascript-plain colored",
-                    "name": "JavaScript"
-                },
-                {
-                    "class": "devicon-nodejs-plain colored",
-                    "name": "nodejs"
-                },
-                {
-                    "class": "devicon-mongodb-plain colored",
-                    "name": "mongodb"
-                }
-            ]
+          "class": "devicon-react-original colored",
+          "name": "React"
         },
         {
-            "title": "Photolog",
-            "startDate": "2022",
-            "description": "포토로그\n하이\n디스크립션",
-            "images": [
-                "https://velog.velcdn.com/images/lesacat94/post/8b030435-f709-47a0-918b-e258224a62dc/image.%25E1%2584%2591%25E1%2585%25A9%25E1%2584%2590%25E1%2585%25A9%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2580%25E1%2585%25B3%25E1%2584%2586%25E1%2585%25A6%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AB",
-                "https://user-images.githubusercontent.com/59651691/210131630-6d50021e-764d-46eb-b3ee-6bab952307fc.gif",
-                "https://user-images.githubusercontent.com/59651691/210131218-c90c1f98-310e-4da8-add9-024f9e7d2b21.gif",
-                "https://user-images.githubusercontent.com/59651691/210131167-11ab68c7-4157-453b-97db-793ff5938421.gif"
-            ],
-            "url": "http://ec2-54-180-51-116.ap-northeast-2.compute.amazonaws.com/",
-            "technologies": [
-                {
-                    "class": "devicon-react-original colored",
-                    "name": "React"
-                },
-                {
-                    "class": "devicon-typescript-plain colored",
-                    "name": "TypeScript"
-                },
-                {
-                    "class": "devicon-nodejs-plain colored",
-                    "name": "nodejs"
-                },
-                {
-                    "class": "devicon-mysql-plain colored",
-                    "name": "mysql"
-                },
-                {
-                    "class": "devicon-eslint-original colored",
-                    "name": "eslint"
-                },
-                {
-                    "class": "devicon-nestjs-plain colored",
-                    "name": "nestjs"
-                }
-            ]
+          "class": "devicon-typescript-plain colored",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "nodejs"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "mysql"
+        },
+        {
+          "class": "devicon-eslint-original colored",
+          "name": "eslint"
+        },
+        {
+          "class": "devicon-nestjs-plain colored",
+          "name": "nestjs"
         }
-    ],
-    "experience": [
+      ]
+    },
+    {
+      "title": "Coinzero",
+      "startDate": "2023",
+      "description": "포토로그\n하이\n디스크립션",
+      "images": [
+        "https://www.analyticsinsight.net/wp-content/uploads/2023/01/Bitcoin-Predicted-to-Peak-at-US32000-in-2023.jpg",
+        "https://velog.velcdn.com/images/lesacat94/post/41ce047e-9deb-4854-a4e2-d628f2eef31e/image.gif",
+        "https://velog.velcdn.com/images/lesacat94/post/cd9d5cc5-9845-42c8-bd97-db373979d762/image.png",
+        "https://velog.velcdn.com/images/lesacat94/post/f7075207-8f88-4321-8862-a3b9726504c8/image.gif"
+      ],
+      "url": "https://preeminent-cobbler-b5b779.netlify.app/",
+      "githubUrl": "https://github.com/LESANF/coinzero",
+      "technologies": [
         {
-            "company": "(주)엘리스",
-            "title": "엘리스 SW 엔지니어 트랙 3기",
-            "years": "2022.09 - 2022.12",
-            "mainTech": ["2022.09 ~ 2022.12"],
-            "technologies": ["BootCamp"]
+          "class": "devicon-react-original colored",
+          "name": "React"
         },
         {
-            "company": "(주)맵스코",
-            "title": "JAVA, JSP 기반 SI 업체 퇴사",
-            "years": " - 2021.11",
-            "mainTech": [" ~ 2021.11"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
+          "class": "devicon-typescript-plain colored",
+          "name": "TypeScript"
         },
         {
-            "company": "해양수산인재개발원",
-            "title": "2021 학사운영정보시스템 개선",
-            "years": "2021.03 - 2021.10",
-            "summary": "- 어업인 대상 LMS 서비스 개발",
-            "mainTech": ["2021.03 ~ 2021.10"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Oracle"]
-        },
-        {
-            "company": "신라대학교",
-            "title": "신라대학교 생활관 통합관리시스템 구축",
-            "years": "2021.01 - 2021.03",
-            "summary": "- 공지사항 문자 서비스, 기숙사 신청 관리 시스템, 관리자 로그인 문자 인증 서비스",
-            "mainTech": ["2021.01 ~ 2021.03"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Maria"]
-        },
-        {
-            "company": "울산광역시 상수도사업본부",
-            "title": "상하수도요금관리프로그램 재개발 산업",
-            "years": "2020.06 - 2020.01",
-            "summary": "- 전체 서비스 마이그레이션 담당",
-            "mainTech": ["2020.06 ~ 2020.01"],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "Oracle"]
-        },
-        {
-            "company": "(주)맵스코",
-            "title": "JAVA, JSP 기반 SI 업체 입사",
-            "years": "2020.05 - ",
-            "mainTech": ["2020.05 ~ "],
-            "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
-        },
+          "class": "devicon-eslint-original colored",
+          "name": "eslint"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "(주)엘리스",
+      "title": "엘리스 SW 엔지니어 트랙 3기",
+      "years": "2022.09 - 2022.12",
+      "mainTech": ["2022.09 ~ 2022.12"],
+      "technologies": ["BootCamp"]
+    },
+    {
+      "company": "(주)맵스코",
+      "title": "JAVA, JSP 기반 SI 업체 퇴사",
+      "years": " - 2021.11",
+      "mainTech": [" ~ 2021.11"],
+      "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
+    },
+    {
+      "company": "해양수산인재개발원",
+      "title": "2021 학사운영정보시스템 개선",
+      "years": "2021.03 - 2021.10",
+      "summary": "- 어업인 대상 LMS 서비스 개발",
+      "mainTech": ["2021.03 ~ 2021.10"],
+      "technologies": ["Java", "Spring", "JSP", "jQuery", "Oracle"]
+    },
+    {
+      "company": "신라대학교",
+      "title": "신라대학교 생활관 통합관리시스템 구축",
+      "years": "2021.01 - 2021.03",
+      "summary": "- 공지사항 문자 서비스, 기숙사 신청 관리 시스템, 관리자 로그인 문자 인증 서비스",
+      "mainTech": ["2021.01 ~ 2021.03"],
+      "technologies": ["Java", "Spring", "JSP", "jQuery", "Maria"]
+    },
+    {
+      "company": "울산광역시 상수도사업본부",
+      "title": "상하수도요금관리프로그램 재개발 산업",
+      "years": "2020.06 - 2020.01",
+      "summary": "- 전체 서비스 마이그레이션 담당",
+      "mainTech": ["2020.06 ~ 2020.01"],
+      "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "Oracle"]
+    },
+    {
+      "company": "(주)맵스코",
+      "title": "JAVA, JSP 기반 SI 업체 입사",
+      "years": "2020.05 - ",
+      "mainTech": ["2020.05 ~ "],
+      "technologies": ["Java", "Spring", "JSP", "jQuery", "Nexacro16", "MySQL", "Oracle", "Maria"]
+    },
 
-        {
-            "company": "동명대학교 산학협력단",
-            "title": "동명대학교 산학협력단(TLO) 교직원",
-            "years": "2019.07 - 2020.02",
-            "mainTech": ["2019.07 ~ 2020.02"],
-            "technologies": []
-        },
-        {
-            "company": "한국산업인력공단",
-            "title": "정보처리기사 취득",
-            "years": "2019.11",
-            "mainTech": ["2019.11"],
-            "technologies": ["국가공인자격증"]
-        },
-        {
-            "company": "부경대학교",
-            "title": "제8회 2018 ICT 융합기술:서비스 학술대회 참가",
-            "years": "2018.08 - 2018.08",
-            "mainTech": ["2018.08 ~ 2018.08"],
-            "technologies": ["Android Studio", "CloudRAIL"]
-        },
-        {
-            "title": "동명대학교 컴퓨터공학과(4년제)",
-            "years": "2013.03 - 2019.02",
-            "mainTech": ["2013.03 ~ 2019.02"],
-            "technologies": [
-                "자료구조",
-                "운영체제",
-                "네트워크",
-                "데이터베이스",
-                "논리회로",
-                "C",
-                "C++",
-                "Java",
-                "Oracle",
-                "MySQL",
-                "Android Studio"
-            ]
-        }
-    ]
+    {
+      "company": "동명대학교 산학협력단",
+      "title": "동명대학교 산학협력단(TLO) 교직원",
+      "years": "2019.07 - 2020.02",
+      "mainTech": ["2019.07 ~ 2020.02"],
+      "technologies": []
+    },
+    {
+      "company": "한국산업인력공단",
+      "title": "정보처리기사 취득",
+      "years": "2019.11",
+      "mainTech": ["2019.11"],
+      "technologies": ["국가공인자격증"]
+    },
+    {
+      "company": "부경대학교",
+      "title": "제8회 2018 ICT 융합기술:서비스 학술대회 참가",
+      "years": "2018.08 - 2018.08",
+      "mainTech": ["2018.08 ~ 2018.08"],
+      "technologies": ["Android Studio", "CloudRAIL"]
+    },
+    {
+      "title": "동명대학교 컴퓨터공학과(4년제)",
+      "years": "2013.03 - 2019.02",
+      "mainTech": ["2013.03 ~ 2019.02"],
+      "technologies": ["자료구조", "운영체제", "네트워크", "데이터베이스", "논리회로", "C", "C++", "Java", "Oracle", "MySQL", "Android Studio"]
+    }
+  ]
 }
