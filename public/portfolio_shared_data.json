@@ -70,9 +70,14 @@
         "level": "66"
       },
       {
+        "name": "Next.js",
+        "class": "devicon-nextjs-plain colored",
+        "level": "67"
+      },
+      {
         "name": "Expo",
         "class": "si si-expo",
-        "level": "67"
+        "level": "68"
       },
       {
         "name": "Node.js",
