@@ -1,84 +1,99 @@
 {
-    "basic_info": {
-        "name": "DONGHAN KIM",
-        "titles": ["Front-end Developer"],
-        "social": [
-            {
-                "name": "github",
-                "url": "https://github.com/lesanf",
-                "class": "fab fa-github"
-            },
-            {
-                "name": "linkedin",
-                "url": "https://www.linkedin.com/in/lesacat/",
-                "class": "fab fa-linkedin"
-            },
-            {
-                "name": "instagram",
-                "url": "https://www.instagram.com/lesawfe",
-                "class": "fab fa-instagram"
-            },
-            {
-                "name": "blog",
-                "url": "https://velog.io/@lesacat94",
-                "class": "fab fa-blogger"
-            }
-        ],
-        "image": "myProfile.jpg"
-    },
-    "skills": {
-        "icons": [
-            {
-                "name": "HTML 5",
-                "class": "devicon-html5-plain colored",
-                "level": "95"
-            },
-            {
-                "name": "CSS 3",
-                "class": "devicon-css3-plain colored",
-                "level": "95"
-            },
-            {
-                "name": "JavaScript",
-                "class": "devicon-javascript-plain colored",
-                "level": "80"
-            },
-            {
-                "name": "TypeScript",
-                "class": "devicon-typescript-plain colored",
-                "level": "70"
-            },
-            {
-                "name": "Sass",
-                "class": "devicon-sass-original colored",
-                "level": "50"
-            },
+  "basic_info": {
+    "name": "DONGHAN KIM",
+    "titles": ["Front-end Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/lesanf",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lesacat/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/lesawfe",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "blog",
+        "url": "https://velog.io/@lesacat94",
+        "class": "fab fa-blogger"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain colored",
+        "level": "80"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain colored",
+        "level": "70"
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "devicon-tailwindcss-plain colored",
+        "level": "69"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original colored",
+        "level": "50"
+      },
 
-            {
-                "name": "react.js",
-                "class": "devicon-react-plain colored",
-                "level": "65"
-            },
-            {
-                "name": "Node.js",
-                "class": "devicon-nodejs-plain colored",
-                "level": "65"
-            },
-            {
-                "name": "java",
-                "class": "devicon-java-plain colored",
-                "level": "60"
-            },
-            {
-                "name": "MySql",
-                "class": "devicon-mysql-plain colored",
-                "level": "60"
-            },
-            {
-                "name": "Oracle",
-                "class": "devicon-oracle-plain colored",
-                "level": "60"
-            }
-        ]
-    }
+      {
+        "name": "React",
+        "class": "devicon-react-plain colored",
+        "level": "65"
+      },
+      {
+        "name": "React-Native",
+        "class": "devicon-react-plain colored",
+        "level": "66"
+      },
+      {
+        "name": "Expo",
+        "class": "si si-expo",
+        "level": "67"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain colored",
+        "level": "65"
+      },
+      {
+        "name": "java",
+        "class": "devicon-java-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "Oracle",
+        "class": "devicon-oracle-plain colored",
+        "level": "60"
+      }
+    ]
+  }
 }
